@@ -21,13 +21,9 @@ class Arithmetic extends Component {
                 
       }
       Multiplication= () => {
-        if(this.state.num>=1){
-        this.setState({num:this.state.num*5});
-        }        
-        else{
-            alert("Multiplication can't be performed ")
+            this.setState({num:this.state.num*5});
         }
-      }
+      
     render() {
         return (
             <div className="App-header">
