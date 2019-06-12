@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import './Signin.css';
+import Signup from './Signup'
 
 // function Signin() {
   // import React, { Component } from 'react';
@@ -26,7 +25,9 @@ class Signin extends Component {
         return (
           <div className="App">
           <header className="App-header">
+          <Signup/>
             <form>
+            
               <h2>SIGN IN</h2>
     
               <label>
@@ -36,6 +37,7 @@ class Signin extends Component {
               <input id="button" type="submit" value="Submit" /><br></br>
               <a id="forgot" href="">Forgot password?</a>
             </form>
+            
           </header>
         </div>
         );
