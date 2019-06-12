@@ -24,7 +24,7 @@ class Signup extends Component{
             <input type="text" name="name" /><br></br>
 
           </label>
-          <input className="button1" type="submit" value="Submit" /><br></br>
+          <input className="button1" type="submit" value="Create my Account" /><br></br>
 
         </form>
       </header>
