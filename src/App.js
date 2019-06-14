@@ -10,7 +10,9 @@ import Arithmetic from './Task3/Arithmetic'
 import State_set from './P/State_set';
 import Start from './Start';
 import Samples from './P/Samples';
-import Task4 from './Task4/Task4'
+import Task4 from './Task4/Task4';
+import Task5 from './Task5/Task5';
+import Restfull_api from './P/Restfull_api'
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
         <Route exact path="/Task2" component={Names}></Route>
         <Route exact path="/Task3" component={Arithmetic}></Route>
         <Route exact path="/Task4" component={Task4}></Route>
+        <Route exact path="/Task5" component={Task5}></Route>
         <Route exact path="/ss" component={Samples}></Route>
+        <Route exact path="/rest" component={Restfull_api}></Route>
       </Switch>
     </Router>
   );
